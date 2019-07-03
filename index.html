@@ -6,13 +6,14 @@
 <style>
 body {
     font-family: "Lato", sans-serif;
+    background-image: url("C:/www/git-checkin/np-port/npurohit.github.io/images/dmv_loc_image.jpg") no-repeat;
 }
 .sidenav {
     height: 60%;
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 150 left: 0;
+    top: 150; left: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -53,7 +54,7 @@ body {
 
 .close:hover,
 .close:focus {
-    color: #999;
+    color:#999;
     text-decoration: none;
     cursor: pointer;
 }    
@@ -64,14 +65,14 @@ body {
 }
 </style>
 </head>
-<body>
+<body background: url("C:/www/git-checkin/np-port/npurohit.github.io/images/dmv_loc_image.jpg") no-repeate;>
 <header>
-<h2>Narayan Purohit</h2>
-<p><strong>Summery : </strong>With a Bachelor's of Science in Mathematics from M S University India and a professional software development and application support background. I have an experience and skills to fulfill both data analytics, Business Analyst roles. I enjoy machine learning and help business take advantage of their data analytics.
+<h2>Narayan P</h2>
+<!-- <p><strong>Summery : </strong>With a Bachelor's of Science in Mathematics from M S University India and a professional software development and application support background. I have an experience and skills to fulfill both data analytics, Business Analyst roles. I enjoy machine learning and help business take advantage of their data analytics.
     
-</p>
+</p>-->
     </header>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+<span style="font-size:30px;cursor:pointer;height: 100%" onclick="openNav()">&#9776; open</span>
 
 
 <aside id="mySidenav" class="sidenav">  
@@ -81,6 +82,10 @@ body {
   <a href="#">Contact</a>
   <a href="javascript:void(0)" class="close" onclick="closeNav()">&times; Close</a>
 </aside>
+<footer>
+    <img style="height: 100%; width: 100%" src="C:/www/git-checkin/np-port/npurohit.github.io/images/dmv_loc_image.jpg" fixed center alt="DC Maryland Virginia Area" />
+    <p align=right> Image: loc.gov</p>
+</footer>
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
