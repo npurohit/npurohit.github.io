@@ -107,15 +107,15 @@
 
 #main_icon
 {
-    float:right;
+   float: right;
    padding-right: 65px;
-   padding-top:20px;
+   padding-top: 20px;
 }
 .sub_icon
 {
-    float:right;
+   float: right;
    padding-right: 65px;
-   padding-top:10px;
+   padding-top: 10px;
 }
 .content-header {
   height: 65px;

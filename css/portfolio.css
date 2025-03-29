@@ -1,5 +1,5 @@
 body {
-    font-family="lato, sans-sarif";
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sidenav {
@@ -7,7 +7,7 @@ body {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0 left: 0;
+    top: 0; left: 0;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -36,9 +36,9 @@ body {
     margin-left: 50px;    
 }
 
-@media screen and (max-height: 45px;) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 36px;}
+@media screen and (max-height: 45px) {
+    .sidenav {padding-top: 15px}
+    .sidenav a {font-size: 36px}
 }
 /** CSS for Light Box */
 
@@ -63,7 +63,7 @@ body {
     position: fixed;
     z-index: 1;
     padding-top: 100px;
-    left: 0px
+    left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
@@ -158,5 +158,5 @@ img.hover-shadow{
     transition:0.3s;
 }
 .hover-shadow:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19)       
+    box-shadow: (0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19));       
 }
